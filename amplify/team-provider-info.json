@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-saveitcognitoauth-staging-174359-authRole",
+      "UnauthRoleArn": "arn:aws:iam::158397965654:role/amplify-saveitcognitoauth-staging-174359-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::158397965654:role/amplify-saveitcognitoauth-staging-174359-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-saveitcognitoauth-staging-174359-deployment",
+      "UnauthRoleName": "amplify-saveitcognitoauth-staging-174359-unauthRole",
+      "StackName": "amplify-saveitcognitoauth-staging-174359",
+      "StackId": "arn:aws:cloudformation:eu-north-1:158397965654:stack/amplify-saveitcognitoauth-staging-174359/8c047f80-8d4c-11ee-a795-0e01502db368",
+      "AmplifyAppId": "d1qe776wbuhy3r"
+    },
+    "categories": {
+      "auth": {
+        "saveitcognitoauth": {}
+      }
+    }
+  }
+}
