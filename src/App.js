@@ -10,10 +10,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import "@aws-amplify/ui-react/styles.css"
-import {Heading, withAuthenticator} from '@aws-amplify/ui-react';
-import { Button } from '@mui/base';
-import { useEffect } from 'react';
-import * as actionTypes from './actionTypes/actionTypes'
+import {withAuthenticator} from '@aws-amplify/ui-react';
 import AllExpenditures from './components/allExpenditures';
 
 function App(user) {
