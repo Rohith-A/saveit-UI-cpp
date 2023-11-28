@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { connect, useDispatch, useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import * as actionTypes from '../actionTypes/actionTypes'
 import { Box, Card, CardContent, CardHeader, Grid, LinearProgress, Typography } from '@mui/material';
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
-import AddExpenditures from './AddExpenditures';
-
+import { DataGrid } from '@mui/x-data-grid';
+import AddExpenditures from './AddExpenditures'
 
 const AllExpenditures = () => {
     const columns = [
@@ -88,6 +87,4 @@ const AllExpenditures = () => {
        
         </React.Fragment>)
 }
-
-// To make those two function works register it using connect
 export default AllExpenditures;

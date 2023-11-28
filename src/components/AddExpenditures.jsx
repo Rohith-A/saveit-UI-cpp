@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import * as actionTypes from '../actionTypes/actionTypes'
 import { Autocomplete, Box, Button, Card, CardContent, CardHeader, TextField, Typography } from '@mui/material';
-import CssBaseline from '@mui/material/CssBaseline';
-import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import styled from 'styled-components';
@@ -19,12 +17,6 @@ const Item = styled(Paper)(({ theme }) => ({
   color: 'black',
 }));
 
-
-const top100Films = [
-  { label: 'The Shawshank Redemption' },
-  { label: 'The Godfather' },
-  { label: 'The Godfather: Part II' },
-  { label: 'The Dark Knight' }];
 const AddExpenditures = (props) => {
   const userDetails = props.user
   const dispatch = useDispatch();
