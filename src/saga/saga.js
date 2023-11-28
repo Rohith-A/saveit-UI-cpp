@@ -21,7 +21,7 @@ function* getCategory() {
   }))
   yield put({ type: actionTypes.GET_CATGORIES, payload: { categories: categoriesData.data.Items, categoryOptions: options } })
 }
-
+// fetch all the instructions
 function* getAllExpenditures(action) {
   const url = `${apiHost}expenditure/`
   const data = action.payload;
