@@ -10,7 +10,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import "@aws-amplify/ui-react/styles.css"
 import {withAuthenticator} from '@aws-amplify/ui-react';
-import AllExpenditures from './components/allExpenditures';
+import AllExpenditures from './components/ExpendituresData';
 
 function App(user) {
   return (

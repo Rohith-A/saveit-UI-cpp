@@ -39,7 +39,6 @@ const AllExpenditures = () => {
         setAllExpendituresData(state.expenditures?.allExpenditure)
     }, [state.expenditures])
     return(<React.Fragment>
-        {allExpendituresData ? (
             <React.Fragment>
             <Grid container spacing={2}>
             <Grid item xs={7}>
@@ -77,13 +76,6 @@ const AllExpenditures = () => {
           </Grid>
           </Grid>
           </React.Fragment>
-        ): (
-            <Typography variant='h6' gutterBottom sx={{
-                textAlign: 'center'
-            }}>loading ..! <Box sx={{ width: '100%' }}>
-            <LinearProgress />
-          </Box></Typography>
-        )}
        
         </React.Fragment>)
 }
