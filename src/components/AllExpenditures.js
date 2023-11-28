@@ -24,7 +24,7 @@ const AllExpenditures = () => {
     const dispatch = useDispatch();
     const state = useSelector((state) => state)
     const userDetails = useSelector((state) => state.user)
-    const [allExpendituresData, setAllExpendituresData] = useState([]);
+    const [allExpendituresData, setAllExpendituresData] = useState();
     useEffect(() => {
         if(userDetails?.user) {
         dispatch({
@@ -39,7 +39,7 @@ const AllExpenditures = () => {
         setAllExpendituresData(state.expenditures?.allExpenditure)
     }, [state.expenditures])
     return(<React.Fragment>
-        {allExpendituresData?.length ? (
+        {allExpendituresData ? (
             <React.Fragment>
             <Grid container spacing={2}>
             <Grid item xs={7}>
