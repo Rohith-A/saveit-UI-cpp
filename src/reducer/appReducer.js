@@ -7,13 +7,7 @@ const initState = initialState
 
 export const appReducer = (state = initState, action) => {
   switch (action.type) {
-    case actionTypes.LOGIN:
-      return {
-        ...state,
-        numOfItems: state.numOfItems + 1,
-      };
-
-    case actionTypes.SIGN_UP:
+    case actionTypes.USER_DETAILS:
       return {
         ...state,
         user: action.payload
@@ -22,6 +16,21 @@ export const appReducer = (state = initState, action) => {
         return {
             ...state,
             testData: action.payload
+        }
+    case actionTypes.GET_CATGORIES:
+        return {
+            ...state,
+            categories: action.payload
+        }
+    case actionTypes.GET_ALL_EXPENDITURES:
+        return {
+            ...state,
+            expenditures: action.payload
+        }
+    case actionTypes.ADD_EXPENDITURES:
+        return {
+            ...state,
+            expenditures: action.payload
         }
     default:
       return state;

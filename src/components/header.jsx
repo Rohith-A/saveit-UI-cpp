@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import * as actionTypes from '../actionTypes/actionTypes'
 import { Box, Typography } from '@mui/material';
 
-const Header = () => {
+const Header = (props) => {
     const dispatch = useDispatch();
     const state = useSelector((state) => state)
     useEffect(() => {
@@ -11,7 +11,12 @@ const Header = () => {
             type: actionTypes.TEST_API
         })
     }, [])
-
+    useEffect(() => {
+      dispatch({
+          type: actionTypes.USER_DETAILS,
+          payload: props.user
+      })
+  }, [props.user])
     return(<Box sx={{width: '100%',
     background: 'color(rec2020 0.32 0.43 0.62)',
     height: '60px'
@@ -23,7 +28,7 @@ const Header = () => {
     left: '30px',
     top: '10px'
 }}>
-ToDo !
+Save It!
 </Typography>
         </Box>)
 }

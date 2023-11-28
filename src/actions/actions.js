@@ -9,14 +9,18 @@ const action = (type, payload) => {
     }
 }
 
-export const signUp = () => {
-    return action(actionTypes.SIGN_UP_API, payload)
-};
-
-export const login = (payload) => {
-    return action(actionTypes.LOGIN, payload)
-}
-
 export const test = (payload) => {
     return action(actionTypes.TEST, payload)
+}
+export const userDetails = (payload) => {
+    return action(actionTypes.USER_DETAILS, payload)
+}
+export const allExpenditures = (payload) => {
+    return action(actionTypes.GET_ALL_EXPENDITURES_API, payload)
+}
+export const addExpenditures = (payload) => {
+    return action(actionTypes.ADD_EXPENDITURES_API, payload)
+}
+export const getAllCategories = (payload) => {
+    return action(actionTypes.GET_CATGORIES_API, payload)
 }

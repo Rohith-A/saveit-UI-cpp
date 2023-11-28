@@ -1,5 +1,9 @@
-export const SIGN_UP = 'SIGN_UP';
-export const SIGN_UP_API = 'SIGN_UP_API';
-export const LOGIN = 'LOGIN';
 export const TEST = 'TEST';
-export const TEST_API = 'TEST_API'
+export const TEST_API = 'TEST_API';
+export const GET_ALL_EXPENDITURES_API = 'GET_ALL_EXPENDITURES_API';
+export const GET_ALL_EXPENDITURES = 'GET_ALL_EXPENDITURES';
+export const ADD_EXPENDITURES_API = 'ADD_EXPENDITURES_API';
+export const ADD_EXPENDITURES = 'ADD_EXPENDITURES'
+export const GET_CATGORIES_API = 'GET_CATGORIES_API';
+export const GET_CATGORIES = 'GET_CATGORIES'
+export const USER_DETAILS = 'USER_DETAILS';
