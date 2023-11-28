@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/saveit-UI-cpp/static/css/main.aae507dc.css",
-    "main.js": "/saveit-UI-cpp/static/js/main.efc59421.js",
+    "main.js": "/saveit-UI-cpp/static/js/main.3ed169de.js",
     "static/js/787.adc779f8.chunk.js": "/saveit-UI-cpp/static/js/787.adc779f8.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/saveit-UI-cpp/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/saveit-UI-cpp/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -61,11 +61,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/saveit-UI-cpp/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/saveit-UI-cpp/index.html",
     "main.aae507dc.css.map": "/saveit-UI-cpp/static/css/main.aae507dc.css.map",
-    "main.efc59421.js.map": "/saveit-UI-cpp/static/js/main.efc59421.js.map",
+    "main.3ed169de.js.map": "/saveit-UI-cpp/static/js/main.3ed169de.js.map",
     "787.adc779f8.chunk.js.map": "/saveit-UI-cpp/static/js/787.adc779f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aae507dc.css",
-    "static/js/main.efc59421.js"
+    "static/js/main.3ed169de.js"
   ]
 }
